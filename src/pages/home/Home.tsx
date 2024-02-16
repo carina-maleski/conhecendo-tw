@@ -33,8 +33,25 @@ function Home() {
         </div>
       </div>
 
-      <div>
+      <div className="mt-12">
         <h3 className="text-xl">justify-content alinhamento vertical</h3>
+        <div className="w-auto h-60 bg-violet-200 flex justify-center items-start m-3">
+          <div className="basis-1/4 bg-violet-900 text-white m-2">
+            justify-center items-start alinhamento horizontal centro/vertical
+            topo
+          </div>
+        </div>
+        <div className="w-auto h-60 bg-cyan-100 flex justify-center items-center m-3">
+          <div className="basis-1/4 bg-cyan-900 text-white m-2">
+            justify-center items-center alinhamento horizontal centro/vertical
+            centro
+          </div>
+        </div>
+        <div className="w-auto h-60 bg-teal-100 flex justify-center items-end m-3">
+          <div className="basis-1/4 bg-teal-900 text-white">
+            justify-center items-end alinhamento horizontal centro/vertical base
+          </div>
+        </div>
       </div>
     </>
   );
